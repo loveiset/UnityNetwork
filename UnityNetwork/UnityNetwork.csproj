@@ -42,6 +42,7 @@
     <Compile Include="NetBitStream.cs" />
     <Compile Include="NetPacket.cs" />
     <Compile Include="NetTCPClient.cs" />
+    <Compile Include="NetTCPServer.cs" />
     <Compile Include="NetworkManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

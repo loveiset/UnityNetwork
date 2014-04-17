@@ -172,7 +172,7 @@ namespace UnityNetwork
             {
                 try
                 {
-                    ns.BeginWrite(bts.BYTES, 0, bts.Length, new System.AsyncCallback(SenCallback), ns);
+                    ns.BeginWrite(bts.BYTES, 0, bts.Length, new System.AsyncCallback(SendCallback), ns);
 
                 }
                 catch (System.Exception)

@@ -3,7 +3,7 @@ using System.Net.Sockets;
 
 namespace UnityNetwork
 {
-    class NetPacket
+    public class NetPacket
     {
         public byte[] _bytes;
         public Socket _peer = null;
